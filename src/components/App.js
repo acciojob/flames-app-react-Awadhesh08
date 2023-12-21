@@ -40,7 +40,7 @@ const App = () => {
         <div id="main">
             {/* Do not remove the main div */}
             <form>
-                <input type="text" data-testid="input1" placeholder="First Name" name="name2"
+                <input type="text" data-testid="input1" placeholder="First Name" name="name1"
                     onChange={(e) => setName1(e.target.value)}
                     value={name1}
                 />
